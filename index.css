@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.master {
+    background-color: #2E363F;
+    width: 300px;
+    height: 500px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerUm {
+    width: 100%;
+    height: 20px;
+    
+    background-color: green;
+}
+
+.containerDois {
+    width: 100%;
+    height: 20px;
+    background-color: greenyellow;
+}
+
+.containerTres {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
