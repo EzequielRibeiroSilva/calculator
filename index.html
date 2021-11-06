@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,43 +8,43 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container"> <!--Feito-->
-        <div class="master"> <!--Feito-->
-            <div class="containerUm"> <!--Feito-->
-                <div class="calculo"> <!--Feito-->
-                </div>
+    <div id="mesa">
+        <div class="calculadora">
+            <div class="resultado">
+                <p class="resUm"></p>
+                <p class="resDois"></p>
             </div>
-            <div class="containerDois">
-                <p class="res"></p>
-            </div>
-            <div class="containerTres">
-                <button class="btnC">C</button>
-                <button class="btn"><span>&#37;	</span></button>
-                <button class="btn"><span>&#247;</span></button>
-            </div>
-            <div class="containerQuatro">
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btn"><span>&#xd7;</span></button>
-            </div>
-            <div class="containerCinco">
-                <button class="btn">4</button>
-                <button class="btn">5</button>
-                <button class="btn">6</button>
-                <button class="btn"><span>&#x207B;</span></button>
-            </div>
-            <div class="containerSeis">
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn"><span>&#x207A;</span></button>
-            </div>
-            <div class="containerSete">
-                <button class="btnZero">0</button>
-                <button class="btn">.</button>
-                <button class="btn"><span>&#x3d;</span></button>
-            </div>
+            <table>
+                <tr>
+                    <td><button class="btnRosa">&#67;</button></td>
+                    <td><button class="btnRosa">&#60;</button></td>
+                    <td><button class="btnRosa">&#37;</button></td>
+                    <td><button class="btnRosa">&#47;</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btnAzul">&#55;</button></td>
+                    <td><button class="btnAzul">&#56;</button></td>
+                    <td><button class="btnAzul">&#57;</button></td>
+                    <td><button class="btnRosa">&#120;</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btnAzul">&#52;</button></td>
+                    <td><button class="btnAzul">&#53;</button></td>
+                    <td><button class="btnAzul">&#54;</button></td>
+                    <td><button class="btnRosa">&#45;</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btnAzul">&#49;</button></td>
+                    <td><button class="btnAzul">&#50;</button></td>
+                    <td><button class="btnAzul">&#51;</button></td>
+                    <td><button class="btnRosa">&#43;</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button style="width: 113px;" class="btnAzul">&#48;</button></td> <!--Colspan faz coluna oculpar duas linhas...-->
+                    <td><button class="btnAzul">&#46;</button></td>
+                    <td><button class="btnAmarelo">&#61;</button></td>
+                </tr>
+            </table>
         </div>
     </div>
 </body>

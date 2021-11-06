@@ -1,54 +1,72 @@
-* {
+*{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
-.container {
+#mesa {
+    background-color: rgb(235, 235, 235);
     width: 100%;
     height: 100vh;
-    background-color: white;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.master {
-    background-color: #2E363F;
-    width: 300px;
-    height: 500px;   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.calculadora {
+    position: absolute;
+    background-color: #353D44;
+    width: 250px;
+    height: 410px;
+    border-radius: 15px;
+    padding: 15px;
 }
 
-.containerUm {
-    width: 100%;
-    height: 20px;
-    
-    background-color: green;
+.resultado {
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: right;
+    width: 240px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: #262E38;
+    box-shadow: 0, 10, 20;
 }
 
-.containerDois {
-    width: 100%;
-    height: 20px;
-    background-color: greenyellow;
+table {
+    margin-top: 15px;
 }
 
-.containerTres {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    
-    
+.btnRosa, .btnAzul, .btnAmarelo {
+    width: 50px;
+    height: 52px;
+    border: none;
+    margin: 4px;
+    border-radius: 15px;
+font-family: Arial, Helvetica, sans-serif;    color: white;
+    font-size: 25px;
+    font-weight: 600; 
+    cursor: pointer;
 }
 
+.btnRosa {
+    background-color: #FF8AB4;
+}
+.btnRosa:hover {
+    background-color: #FC74A5;
+}
 
+.btnAzul {
+    background-color: #C7F6F5;
+}
+.btnAzul:hover {
+    background-color: #76FCF9;
+}
 
-
-
-
-
-
-
+.btnAmarelo {
+    background-color: #FDDA16;
+    border-radius: 23px;
+}
+.btnAmarelo:hover {
+    background-color: #F5D20B;
+}
 
