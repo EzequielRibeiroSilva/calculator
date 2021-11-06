@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+    </style>
 </head>
 <body>
     <div id="mesa">
@@ -16,36 +19,37 @@
             </div>
             <table>
                 <tr>
-                    <td><button class="btnRosa">&#67;</button></td>
-                    <td><button class="btnRosa">&#60;</button></td>
-                    <td><button class="btnRosa">&#37;</button></td>
-                    <td><button class="btnRosa">&#47;</button></td>
+                    <td colspan="2"><button style="width: 113px;" class="btnRosa" onclick="tiraNum()" >&#67;</button></td>
+                    <td><button class="btnRosa" onclick="tiraUm()">&#60;</button></td>
+                    
+                    <td><button class="btnRosa" onclick="pegaNum('&#47;')">&#47;</button></td>
                 </tr>
                 <tr>
-                    <td><button class="btnAzul">&#55;</button></td>
-                    <td><button class="btnAzul">&#56;</button></td>
-                    <td><button class="btnAzul">&#57;</button></td>
-                    <td><button class="btnRosa">&#120;</button></td>
+                    <td><button class="btnAzul" onclick="pegaNum('7')">&#55;</button></td>
+                    <td><button class="btnAzul" onclick="pegaNum('8')">&#56;</button></td>
+                    <td><button class="btnAzul" onclick="pegaNum('9')">&#57;</button></td>
+                    <td><button class="btnRosa" onclick="pegaNum('&#42;')">&#42;</button></td>
                 </tr>
                 <tr>
-                    <td><button class="btnAzul">&#52;</button></td>
-                    <td><button class="btnAzul">&#53;</button></td>
-                    <td><button class="btnAzul">&#54;</button></td>
-                    <td><button class="btnRosa">&#45;</button></td>
+                    <td><button class="btnAzul" onclick="pegaNum('4')">&#52;</button></td>
+                    <td><button class="btnAzul" onclick="pegaNum('5')">&#53;</button></td>
+                    <td><button class="btnAzul" onclick="pegaNum('6')">&#54;</button></td>
+                    <td><button class="btnRosa" onclick="pegaNum('&#45;')">&#45;</button></td>
                 </tr>
                 <tr>
-                    <td><button class="btnAzul">&#49;</button></td>
-                    <td><button class="btnAzul">&#50;</button></td>
-                    <td><button class="btnAzul">&#51;</button></td>
-                    <td><button class="btnRosa">&#43;</button></td>
+                    <td><button class="btnAzul" onclick="pegaNum('1')">&#49;</button></td>
+                    <td><button class="btnAzul" onclick="pegaNum('2')">&#50;</button></td>
+                    <td><button class="btnAzul" onclick="pegaNum('3')">&#51;</button></td>
+                    <td><button class="btnRosa" onclick="pegaNum('&#43;')">&#43;</button></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button style="width: 113px;" class="btnAzul">&#48;</button></td> <!--Colspan faz coluna oculpar duas linhas...-->
-                    <td><button class="btnAzul">&#46;</button></td>
-                    <td><button class="btnAmarelo">&#61;</button></td>
+                    <td colspan="2"><button style="width: 113px;" class="btnAzul" onclick="pegaNum('0')">&#48;</button></td> <!--Colspan faz coluna oculpar duas linhas...-->
+                    <td><button class="btnAzul" onclick="pegaNum('&#46;')">&#46;</button></td>
+                    <td><button class="btnAmarelo" onclick="operacao()">&#61;</button></td>
                 </tr>
             </table>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
