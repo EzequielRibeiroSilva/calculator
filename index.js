@@ -18,6 +18,6 @@ function operacao() {
     if (resUm.length <= 0 || resUm.length <= 2) {
         document.querySelector('.resUm').innerHTML = 'Operação inválida';
     } else {
-        document.querySelector('.resDois').innerHTML = eval(resUm.substr(1, 5));
+        document.querySelector('.resDois').innerHTML = eval(resUm);
     }
 }
