@@ -60,6 +60,8 @@ table {
     font-size: 25px;
     font-weight: 600; 
     cursor: pointer;
+    font-family: 'Red Hat Mono', monospace;
+
 }
 
 .btnRosa {
